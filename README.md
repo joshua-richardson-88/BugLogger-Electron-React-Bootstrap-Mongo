@@ -1,6 +1,6 @@
-## Simple Electron React Boilerplate
+## Simple Bug Tracking application
 
-This is a simple boilerplate to get up and running with Electron and React. It is a customized version of [Alex Devero's](https://github.com/alexdevero/electron-react-webpack-boilerplate) repo and is used in my Electron course
+Electron application that uses mongoDB and react to track issues.
 
 ### Install
 
@@ -21,6 +21,10 @@ or
 ```
 yarn
 ```
+
+#### Set up database connection
+
+Change the database connections in the .env file to match the mongo database you want to use before running
 
 ### Usage
 
